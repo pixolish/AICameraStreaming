@@ -75,7 +75,7 @@ E --> I[Industrial AI]
 
 <div align="center">
 
-<img src="docs/demo/gui_demo_01.png" width="900">
+<img src="docs/demo/Capture.jpg" width="900">
 
 ### Real-Time ISP Control Interface
 
