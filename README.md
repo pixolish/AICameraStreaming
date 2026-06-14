@@ -30,23 +30,7 @@ AI-Driven Camera Streaming Framework is a unified software platform integrating 
 
 Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imaging middleware designed for building next-generation intelligent vision systems.
 
-The framework combines:
-
-```mermaid
-flowchart LR
-
-A[Camera Sensor]
---> B[Streaming Engine]
-
-B --> C[ISP Control]
-C --> D[Calibration Engine]
-
-D --> E[AI Perception]
-
-E --> F[ADAS]
-E --> G[Robotics]
-E --> H[Surveillance]
-E --> I[Industrial AI]
+<img src="docs/assets/camera_vision_stack.svg" width="680" height="560">
 ```
 
 ### Key Capabilities
