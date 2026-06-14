@@ -4,7 +4,7 @@ AI-Driven Camera Streaming Framework is a unified software platform integrating 
 
 <img src="docs/assets/AICameraVisionStreamingPerceptionTool.png" width="680" height="560">
 
-# AI-Driven Camera Streaming Framework
+# Pixolish AI Vision Streaming & Perception Studio
 
 ### Integrated ISP Control • Automated Calibration • AI Vision Processing
 
