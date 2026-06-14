@@ -1,0 +1,118 @@
+<svg width="680" height="700" viewBox="0 0 680 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="680" height="700" fill="#ffffff"/>
+
+  <!-- L5 Application Layer (amber) -->
+  <rect x="40" y="30" width="600" height="80" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="340" y="58" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#633806">Application layer</text>
+  <line x1="40" y1="72" x2="640" y2="72" stroke="#854F0B" stroke-width="0.5" opacity="0.35"/>
+  <text x="120" y="94" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">ADAS</text>
+  <line x1="195" y1="72" x2="195" y2="110" stroke="#854F0B" stroke-width="0.4" opacity="0.25"/>
+  <text x="265" y="94" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Robotics</text>
+  <line x1="335" y1="72" x2="335" y2="110" stroke="#854F0B" stroke-width="0.4" opacity="0.25"/>
+  <text x="420" y="94" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Surveillance</text>
+  <line x1="500" y1="72" x2="500" y2="110" stroke="#854F0B" stroke-width="0.4" opacity="0.25"/>
+  <text x="568" y="94" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Vision</text>
+  <text x="28" y="70" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#aaa">L5</text>
+
+  <!-- Arrow L4→L5 -->
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#993C1D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#534AB7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <line x1="340" y1="152" x2="340" y2="112" stroke="#BA7517" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="354" y="133" dominant-baseline="central" font-size="12" fill="#BA7517">Perception output</text>
+
+  <!-- L4 AI Perception Framework (coral) -->
+  <rect x="40" y="154" width="600" height="80" rx="10" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+  <text x="340" y="182" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#712B13">AI perception framework</text>
+  <line x1="40" y1="196" x2="640" y2="196" stroke="#993C1D" stroke-width="0.5" opacity="0.35"/>
+  <text x="170" y="218" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#993C1D">Detection</text>
+  <line x1="275" y1="196" x2="275" y2="234" stroke="#993C1D" stroke-width="0.4" opacity="0.25"/>
+  <text x="340" y="218" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#993C1D">Tracking</text>
+  <line x1="410" y1="196" x2="410" y2="234" stroke="#993C1D" stroke-width="0.4" opacity="0.25"/>
+  <text x="510" y="218" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#993C1D">Segmentation</text>
+  <text x="28" y="194" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#aaa">L4</text>
+
+  <!-- Arrow L3→L4 -->
+  <line x1="340" y1="276" x2="340" y2="236" stroke="#534AB7" stroke-width="1.5" marker-end="url(#arr3)"/>
+  <text x="354" y="257" dominant-baseline="central" font-size="12" fill="#534AB7">Calibrated data</text>
+
+  <!-- L3 Calibration Optimization Engine (purple) -->
+  <rect x="40" y="278" width="600" height="80" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="340" y="306" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#3C3489">Calibration optimization engine</text>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#534AB7" stroke-width="0.5" opacity="0.35"/>
+  <text x="140" y="342" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#534AB7">Intrinsic</text>
+  <line x1="220" y1="320" x2="220" y2="358" stroke="#534AB7" stroke-width="0.4" opacity="0.25"/>
+  <text x="310" y="342" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#534AB7">Extrinsic</text>
+  <line x1="390" y1="320" x2="390" y2="358" stroke="#534AB7" stroke-width="0.4" opacity="0.25"/>
+  <text x="450" y="342" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#534AB7">BEV</text>
+  <line x1="500" y1="320" x2="500" y2="358" stroke="#534AB7" stroke-width="0.4" opacity="0.25"/>
+  <text x="560" y="342" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#534AB7">Stereo</text>
+  <text x="28" y="318" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#aaa">L3</text>
+
+  <!-- Arrow L2→L3 -->
+  <line x1="340" y1="400" x2="340" y2="360" stroke="#185FA5" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <text x="354" y="381" dominant-baseline="central" font-size="12" fill="#185FA5">Processed frames</text>
+
+  <!-- L2 ISP Control Framework (blue) -->
+  <rect x="40" y="402" width="600" height="80" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="340" y="430" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#0C447C">ISP control framework</text>
+  <line x1="40" y1="444" x2="640" y2="444" stroke="#185FA5" stroke-width="0.5" opacity="0.35"/>
+  <text x="112" y="466" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">Exposure</text>
+  <line x1="172" y1="444" x2="172" y2="482" stroke="#185FA5" stroke-width="0.4" opacity="0.25"/>
+  <text x="228" y="466" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">Gain</text>
+  <line x1="270" y1="444" x2="270" y2="482" stroke="#185FA5" stroke-width="0.4" opacity="0.25"/>
+  <text x="330" y="466" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">Gamma</text>
+  <line x1="386" y1="444" x2="386" y2="482" stroke="#185FA5" stroke-width="0.4" opacity="0.25"/>
+  <text x="430" y="466" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">WB</text>
+  <line x1="466" y1="444" x2="466" y2="482" stroke="#185FA5" stroke-width="0.4" opacity="0.25"/>
+  <text x="548" y="466" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">Denoise</text>
+  <text x="28" y="442" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#aaa">L2</text>
+
+  <!-- Arrow L1→L2 -->
+  <line x1="340" y1="524" x2="340" y2="484" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <text x="354" y="505" dominant-baseline="central" font-size="12" fill="#0F6E56">Raw frames</text>
+
+  <!-- L1 Camera Streaming Framework (teal) -->
+  <rect x="40" y="526" width="600" height="80" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="340" y="554" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#085041">Camera streaming framework</text>
+  <line x1="40" y1="568" x2="640" y2="568" stroke="#0F6E56" stroke-width="0.5" opacity="0.35"/>
+  <text x="98" y="590" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">USB</text>
+  <line x1="140" y1="568" x2="140" y2="606" stroke="#0F6E56" stroke-width="0.4" opacity="0.25"/>
+  <text x="195" y="590" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">CSI</text>
+  <line x1="240" y1="568" x2="240" y2="606" stroke="#0F6E56" stroke-width="0.4" opacity="0.25"/>
+  <text x="300" y="590" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">GMSL</text>
+  <line x1="352" y1="568" x2="352" y2="606" stroke="#0F6E56" stroke-width="0.4" opacity="0.25"/>
+  <text x="408" y="590" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">RTSP</text>
+  <line x1="456" y1="568" x2="456" y2="606" stroke="#0F6E56" stroke-width="0.4" opacity="0.25"/>
+  <text x="548" y="590" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">GigE Vision</text>
+  <text x="28" y="566" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#aaa">L1</text>
+
+  <!-- Legend -->
+  <rect x="40" y="628" width="600" height="42" rx="6" fill="#f8f8f6" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="56" y="642" width="12" height="12" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="74" y="650" dominant-baseline="central" font-size="11" fill="#633806">Application</text>
+  <rect x="155" y="642" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+  <text x="173" y="650" dominant-baseline="central" font-size="11" fill="#712B13">AI perception</text>
+  <rect x="270" y="642" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="288" y="650" dominant-baseline="central" font-size="11" fill="#3C3489">Calibration</text>
+  <rect x="375" y="642" width="12" height="12" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="393" y="650" dominant-baseline="central" font-size="11" fill="#0C447C">ISP control</text>
+  <rect x="473" y="642" width="12" height="12" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="491" y="650" dominant-baseline="central" font-size="11" fill="#085041">Camera streaming</text>
+</svg>
