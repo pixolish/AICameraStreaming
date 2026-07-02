@@ -66,8 +66,9 @@ Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imagi
 ## GUI Tool Operation Videos
 
 ### ADAS Demo
+<video src="your-video-url.mp4" autoplay loop muted playsinline width="100%"></video>
 
-https://github.com/pixolish/AICameraStreaming/assets/blob/main/docs/demo/ADAS.mp4
+https://github.com/pixolish/AICameraStreaming/blob/main/docs/demo/ADAS.mp4
 
 ### Features Visible in GUI
 
