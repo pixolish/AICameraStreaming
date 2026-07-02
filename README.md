@@ -85,44 +85,7 @@ https://github.com/user-attachments/assets/12879a2f-5966-45f3-8037-b026abc7fdc9
 
 # 🏗️ System Architecture
 
-```text
-
-┌──────────────────────────────────────────┐
-│          Application Layer               │
-├──────────────────────────────────────────┤
-│ ADAS │ Robotics │ Surveillance │ Vision  │
-└──────────────────────────────────────────┘
-                     ▲
-
-┌──────────────────────────────────────────┐
-│         AI Perception Framework          │
-├──────────────────────────────────────────┤
-│ Detection │ Tracking │ Segmentation      │
-└──────────────────────────────────────────┘
-                     ▲
-
-┌──────────────────────────────────────────┐
-│     Calibration Optimization Engine      │
-├──────────────────────────────────────────┤
-│ Intrinsic │ Extrinsic │ BEV │ Stereo     │
-└──────────────────────────────────────────┘
-                     ▲
-
-┌──────────────────────────────────────────┐
-│         ISP Control Framework            │
-├──────────────────────────────────────────┤
-│ Exposure │ Gain │ Gamma │ WB │ Denoise   │
-└──────────────────────────────────────────┘
-                     ▲
-
-┌──────────────────────────────────────────┐
-│       Camera Streaming Framework         │
-├──────────────────────────────────────────┤
-│ USB │ CSI │ GMSL │ RTSP │ GigE Vision    │
-└──────────────────────────────────────────┘
-```
-
----
+<img src="docs/assets/VisionArch.png" width="900">
 
 # ⚡ Core Modules
 
