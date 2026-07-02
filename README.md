@@ -64,10 +64,10 @@ Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imagi
 ### Real-Time Calibration and ISP Control with AI Model Interface
 
 ## GUI Tool Operation Video for ADAS & Surveillance 
-<div align="center">
+
 <video src="docs/demo/ADAS.mp4" width="75%"></video>
 <video src="docs/demo/Surveillance.mp4" width="75%"></video>
-</div>
+
 
 ### Features Visible in GUI
 
