@@ -1,5 +1,6 @@
 # AICameraStreaming
-AI-Driven Camera Streaming Framework is a unified software platform integrating camera streaming, ISP control, automated calibration, and AI-ready vision processing. It accelerates the development of high-performance machine vision solutions for ADAS, video surveillance, robotics, and industrial automation, reducing complexity and time-to-market
+AI-Driven Camera Streaming Framework is a unified software platform integrating camera streaming, ISP control, automated calibration, and AI-ready vision processing. It accelerates the development of intelligent vision applications.
+
 # <div align="center">
 
 <img src="docs/assets/AICameraVisionStreamingPerceptionTool.png" width="680" height="560">
@@ -31,7 +32,6 @@ AI-Driven Camera Streaming Framework is a unified software platform integrating 
 Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imaging middleware designed for building next-generation intelligent vision systems.
 
 <img src="docs/assets/camera_vision_stack.svg" width="680" height="560">
-```
 
 ### Key Capabilities
 
@@ -63,11 +63,11 @@ Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imagi
 
 ### Real-Time Calibration and ISP Control with AI Model Interface
 
-## GUI Tool Operation Video for ADAS & Surveillance 
+## GUI Tool Operation Videos
 
-<video src="docs/demo/ADAS.mp4" width="75%" controls></video>
-<video src="docs/demo/Surveillance.mp4" width="75%" controls></video>
+### ADAS Demo
 
+https://github.com/pixolish/AICameraStreaming/assets/blob/main/docs/demo/ADAS.mp4
 
 ### Features Visible in GUI
 
@@ -90,28 +90,28 @@ Pixolish AI Camera Vision Streaming Perception Tool is an enterprise-grade imagi
 ├──────────────────────────────────────────┤
 │ ADAS │ Robotics │ Surveillance │ Vision  │
 └──────────────────────────────────────────┘
-                    ▲
+                     ▲
 
 ┌──────────────────────────────────────────┐
 │         AI Perception Framework          │
 ├──────────────────────────────────────────┤
 │ Detection │ Tracking │ Segmentation      │
 └──────────────────────────────────────────┘
-                    ▲
+                     ▲
 
 ┌──────────────────────────────────────────┐
 │     Calibration Optimization Engine      │
 ├──────────────────────────────────────────┤
 │ Intrinsic │ Extrinsic │ BEV │ Stereo     │
 └──────────────────────────────────────────┘
-                    ▲
+                     ▲
 
 ┌──────────────────────────────────────────┐
 │         ISP Control Framework            │
 ├──────────────────────────────────────────┤
 │ Exposure │ Gain │ Gamma │ WB │ Denoise   │
 └──────────────────────────────────────────┘
-                    ▲
+                     ▲
 
 ┌──────────────────────────────────────────┐
 │       Camera Streaming Framework         │
