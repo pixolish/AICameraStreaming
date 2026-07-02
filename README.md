@@ -347,9 +347,9 @@ Pixolish System is a deep-tech company focused on:
 
 Website: [www.pixolish.com](http://www.pixolish.com)
 
-Email: [info@pixolish.com](mailto:info@pixolish.com)
+Email: [click here](mailto:somnath@pixolish.com)
 
-LinkedIn: Pixolish System
+LinkedIn: Pixolish System (https://www.linkedin.com/company/pixolish-system-private-limited/?viewAsMember=true)
 
 ---
 
