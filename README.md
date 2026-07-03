@@ -82,7 +82,27 @@ https://github.com/user-attachments/assets/754bb4b7-70c3-42ff-95d5-130e4f8d7c01
 * Configuration Profiles
 
 ---
+### Features in Deployement Overveiew 
 
+🎥 Unified Camera Streaming
+
+⚙️ Advanced ISP Control
+
+📐 Automated Camera Calibration
+
+🧠 YOLO Integration (v3–v26 Ready)
+
+🧩 Microsoft ONNX Runtime
+
+⚡ Quantized INT8 AI Models
+
+🚀 NVIDIA CUDA & TensorRT Acceleration
+
+🎯 Real-time AI Inference
+
+🔄 Multi-Camera Synchronization
+
+🌐 Hardware-Agnostic Deployment
 # 🏗️ System Architecture
 
 <img src="docs/assets/VisionArch.png" width="900">
